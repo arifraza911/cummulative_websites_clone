@@ -1,0 +1,2041 @@
+
+@font-face {
+    font-family:"Gilroy" ;
+    src: url(../Project2/Fonts/Gilroy-Regular.ttf);
+    font-weight: 500;
+   
+   
+   
+   
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+}
+
+#main
+{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #dadada; */
+}
+
+#nav
+{
+    position: fixed;
+    display: flex;
+    padding: 2.5vw 5.2vw;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 2vw;
+    background-color: #fff;
+}
+
+
+#navlinks
+{
+    display: flex;
+    align-items: center;
+}
+
+.navlinks>a
+{
+    margin-left: 1vw;
+    font-family: gilroy;
+
+    font-weight: 900;
+    color: #111;
+    font-size: 1.3vw;
+    text-decoration: none;
+}
+
+
+.img img
+{
+   width: 15vw;
+}
+.navlinks button
+{
+    padding: 0.8vw 1.2vw;
+    border: none;
+    font-size: 1.2vw;
+    color: #fff;
+cursor: pointer;
+ 
+    background-color: #0555ff;
+
+    font-weight: 900;
+    font-family:gilroy;
+    border-radius: 10px;
+}
+
+
+#hero
+{
+    display: flex;
+    width: 100%;
+    min-height: 90vh;
+    /* background-color: green; */
+}
+
+#hero-part1
+{
+    width: 50%;
+    height: inherit;
+    padding: 4vw 5vw;
+    /* background-color: black; */
+}
+
+#hero-part1>h1
+{
+    margin-top: 5vw;
+    font-family: Gilroy;
+font-weight: 600;
+    font-size: 5.9vw;
+}
+
+
+#hero-part1>p
+{
+    margin-top: 2.5vw;
+    font-size: 1.3vw;
+    line-height: 1.8vw;
+}
+#hero-part2
+{
+    width: 50%;
+    height: inherit;
+    /* background-color: rgb(207, 39, 39); */
+}
+
+#hero-part2 img
+{
+    width: 100%;
+}
+
+
+/* clients section starts from here */
+
+
+#clients
+{
+    width: 100%;
+    min-height: 70vh;
+    /* background-color: gray; */
+}
+
+#clients h1
+{
+    font-size: 4.7vw;
+    text-align: center;
+    margin-top: 4vw;
+    font-family: Gilroy;
+}
+
+#clients p
+{
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    color: #232222;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+#clients-logo
+{
+    margin-top: 3vw;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+  align-items: center;
+  gap: 15px;
+    padding: 2vw 5.2vw;
+    background-color: 
+    #dff6ffe1;
+}
+
+.left
+{
+  
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+
+
+
+
+.leftchild1
+{
+    width: 50%;
+    height: 100%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftchild1  img
+{
+width: 13vw;
+border-radius: 10px;
+}
+
+
+.leftchild2
+{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(156, 75, 75); */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.leftchild2 img
+{
+    width: 13vw;
+
+border-radius: 10px;
+}
+
+
+
+
+.center
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 18%;
+    height: 100%;
+    /* background-color: rgb(130, 86, 86); */
+}
+
+
+
+.center img
+{
+    width: 13vw;
+
+border-radius: 10px;
+}
+
+.right
+{
+    /* display: none!important; */
+    display: flex;
+    align-items: center;
+    width: 38%;
+    height: 100%;
+    /* background-color: rgb(174, 162, 162);  */
+}
+
+
+
+#humberger
+{
+    display: none !important;
+    position: absolute;
+    right: 10%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 26px;
+    /* background-color: red; */
+}
+
+.line
+{
+    width: 35px;
+    height: 3px;
+    background-color: rgb(33, 32, 32);
+}
+
+
+.responsive_left
+{
+display: none;
+}
+
+
+
+/* app development section starts from here  */
+
+#app-development
+{
+    margin-top: 2vw;
+    padding: 5vw 5vw;
+    width: 100%;
+ min-height: fit-content;
+ /* background-color: #111; */
+    /* background-color: rgb(167, 141, 141);  */
+}
+
+#app-development h1
+{
+    font-size: 4vw;
+    font-family: Gilroy;
+}
+
+
+
+#cards
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 4vw;
+    height: 16vw;
+    width: 100%;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%;
+  padding: 0.5vw;
+    /* background-color: red; */
+}
+
+.card-logos
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    /* background-color: green; */
+}
+
+
+.card-logos>img
+{
+    width: 3.2vw;
+}
+
+span img{
+width:14.5vw;
+height: 0.4vw;
+   
+}
+
+.card h2
+{
+    padding-top: 3vw;
+    font-size: 2vw;
+    font-weight: 800;
+    font-family: Gilroy;
+}
+
+
+.card h5
+{
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    font-family: Gilroy;
+    font-size: 1.2vw;
+    font-weight: 800;
+    color: rgba(40, 39, 39, 0.84);
+}
+
+
+
+
+/* service section starts from here ! */
+
+
+#services
+{
+    
+    padding: 5vw 5vw;
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+
+
+#services h1
+{
+    font-family: Gilroy;
+    font-weight: 900;
+    color: #fff;
+    font-size: 4vw;
+}
+
+
+
+.row
+{
+
+justify-content: space-between;
+align-items: center;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 4vw;
+    /* background-color: red; */
+    min-height: 60vh;
+}
+
+.container
+{
+    border-radius: 15px;
+    padding: 4vw;
+    width: 32%;
+    height: 100%;
+    background-color: #fff;
+}
+
+
+.img-wrapper
+{
+    width: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vw;
+    border-radius: 50%;
+    background-color: rgba(254, 246, 246, 0.459);
+}
+
+.img-wrapper img
+{
+    /* border-radius: 50%; */
+    z-index: 888888888;
+    width: 2.5vw;
+    /* height: 4vw; */
+}
+
+.container>h2
+{
+    font-size: 2.2vw;
+    font-family: Gilroy-medium;
+    padding-top: 3.5vw;
+    font-weight: bolder;
+}
+
+
+
+.container>p
+{
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+    color: #434343;
+    margin-top: 2vw;
+    font-family: Gilroy;
+}
+
+
+.container>a
+{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-top: 2vw;
+    color: rgb(28, 76, 219);
+}
+
+
+.container>a>i
+{
+    font-size: 2vw;
+    margin-left: 10px;
+}
+
+
+
+
+#explore-btn
+{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-top: 5vw;
+    
+}
+
+
+#explore-btn a
+{
+    display: flex;
+    align-items: center;
+    width: 14vw;
+    height: 4vw;
+  /* margin-right: 10px; */
+    color: #fff;
+    padding: 1.2vw 1vw;
+    font-size: 1.3vw;
+    border-radius: 10px;
+    border: solid 1px #fff;
+    text-decoration: none;
+   
+}
+
+#explore-btn a i
+{
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+
+#explore-btn a:hover 
+{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    background-color: royalblue;
+}
+
+
+/* portfolio section starts from here */
+
+
+#portfolio
+{
+ 
+    padding: 5vw 5vw;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+#ptext
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+#ptext h1
+{
+    font-size: 4vw;
+    font-family: Gilroy;
+    color: #111;
+}
+#pbtn
+{
+    display: flex;
+    align-items: center;
+    border: solid 1px cornflowerblue;
+    padding: 1vw;
+    border-radius: 10px;
+    font-size: 1.3vw;
+}
+
+#pbtn:hover
+{
+    background-color: rgb(15, 176, 212);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+#pbtn a
+{
+   
+    text-decoration: none;
+    color: royalblue;
+   
+}
+
+#pbtn i
+{
+    color: royalblue;
+font-size: 1.5vw;
+/* width: 2vw;   */
+
+}
+
+
+#portfolio-servicelist
+{
+    width: 80%;
+    margin-top: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    border-bottom: 1px solid rgba(162, 162, 162, 0.489);
+    margin-bottom: 4vw;
+    /* background-color: red; */
+}
+
+
+
+#portfolio-servicelist a
+{
+text-decoration: none;
+font-size: 1.5vw;
+font-weight: 900;
+font-family: Gilroy;
+color: #111;
+}
+
+
+
+#mobile-app
+{
+    /* display: none!important; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rgb(127, 71, 71); */
+}
+
+
+
+.mobile-card
+{
+    margin-top: 2vw;
+    width: 32%;
+    /* background-color: red; */
+min-height: 30vh;
+/* background-color: red; */
+    /* background-color: rebeccapurple; */
+
+}
+
+
+
+.mobile-img
+{
+    width: 100%;
+    height: 50%;
+   
+    border-radius: 10px;
+  
+}
+
+.mobile-img img
+{
+    width: 100%;
+   height: 100%;
+    border-radius: 20px; 
+}
+
+.mobile-card h2
+{
+    padding-top: 2vw;
+    font-family: Gilroy;
+    font-size: 1.5vw;
+    color: #111;
+}
+
+
+.mobile-card p
+{
+    padding-top: 1vw;
+    font-size: 1.3vw;
+}
+
+
+
+
+
+
+
+
+
+
+#portfolio-btn
+{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-top: 5vw;
+  
+    
+}
+
+
+#portfolio-btn a
+{
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    width: 14vw;
+    height: 4vw;
+  /* margin-right: 10px; */
+    color: #fff;
+    padding: 1.2vw 1vw;
+    font-size: 1.3vw;
+    border-radius: 10px;
+    border: solid 1px #fff;
+    text-decoration: none;
+   
+}
+
+#portfolio-btn a i
+{
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+
+#portfolio-btn a:hover 
+{
+    border: solid 1px black;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  background-color: transparent;
+}
+
+
+
+/* technologies section starts from here */
+
+
+#technologies
+{
+    gap: 10px;
+    width: 100%;
+ min-height: 40%;
+    padding: 3vw 5vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#ttext
+{
+    padding: 1vw;
+    width: 30%;
+    height: 100%;
+    /* background-color: gainsboro; */
+}
+
+#ttext h1
+{
+    font-size: 4vw;
+    font-family: Gilroy;
+    font-weight: 900;
+}
+
+
+.timages
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 100%;
+}
+
+.timages img
+{
+width: 12vw;
+
+}
+
+
+.box
+{
+    border-radius: 10px;
+    width: 20%;
+    height: 100%;
+    /* background-color: ghostwhite; */
+}
+
+
+/* mobile flex secton starts from here */
+
+
+#mobile-flex
+{
+    width: 100%;
+    padding: 1vw 5.9vw;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    min-height: 100vh;
+    /* background-color: #111; */
+}
+
+.mchild1
+{
+width: 40%;
+min-height: fit-content;
+/* background-color: green; */
+}
+
+.mchild1 img
+{
+    width: 35vw;
+    height: 45vw;
+   
+}
+
+
+.mchild2
+{
+width: 58%;
+height: 100%;
+/* background-color: green; */
+}
+
+.mchild2 h1
+{
+    font-family: Gilroy;
+    font-size: 4.2vw;
+}
+
+
+.mchild2 p
+{
+    font-size: 1.5vw;
+    padding-top: 5vw;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #464545;
+}
+
+#app-grid
+{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 3vw;
+    padding: 2vw 5.3vw;
+    /* background-color: gainsboro; */
+}
+
+#app-grid h1
+{
+    font-size: 3.5vw;
+    font-family: Gilroy;
+    font-weight: 900;
+}
+
+
+#grid
+{
+    margin-top: 4vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: fit-content;
+    /* background-color: rebeccapurple; */
+}
+
+
+.grid-card
+{
+    padding: 2vw;
+    width: 50%;
+    min-height: 20vh;
+    border: solid 1px rgba(192, 189, 189, 0.573);
+    /* background-color: red; */
+}
+
+.grid-flex
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-flex h2
+{
+font-size: 1.6vw;
+/* font-family: Gilroy; */
+}
+.grid-flex img
+{
+    line-height: 28px;
+  width: 7vw;
+}
+
+.grid-card p
+{
+    padding: 3vw 0;
+    font-family: Gilroy;
+    font-size: 1.4vw;
+    font-weight: 800;
+    color: #171515ea;
+}
+
+
+/* DOMAIN EXPERTISE SECTION STARTS FROM HERE */
+
+#domain-expertise
+{
+    width: 100%;
+    margin-top: 4vw;
+    min-height: 70vh;
+ background-color: #0555ff
+ ;
+    padding: 2vw 5.4vw;
+}
+
+#domain-nav
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    width: 70%;
+    padding-bottom: 1vw;
+    border-bottom: solid 2px #fff;
+    min-height: fit-content;
+    margin-top: 2vw;
+    margin-left: 14vw;
+    /* background-color: green; */
+}
+
+#domain-nav a
+{
+    margin-right: 4vw;
+    font-family: Gilroy;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2vw;
+}
+
+#domain-expertise h1
+
+{
+
+    text-align: center;
+font-size: 3.6vw;
+padding-top: 1.6vw;
+font-family: Gilroy;
+font-weight: 900;
+color: rgb(255, 255, 255);
+}
+
+
+
+#domain-expertise p
+{
+    width: 80%;
+    line-height: 29px;
+    letter-spacing: 1px;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+/* function section begins from here */
+
+#hello
+{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5vw 5.4vw;
+    /* background-color: red; */
+}
+
+
+#hello h1
+{
+    font-size: 4vw;
+    font-family: Gilroy-medium;
+}
+
+
+#hello-flex
+{
+    padding-top: 3vw;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* background-color: black; */
+}
+
+.hello-child1
+{
+  width: 48%;
+  height: 100%;
+  /* background-color: gray; */
+}
+
+.hello-child1 h4
+{
+    font-size: 1.3vw;
+    line-height: 1.8vw;
+    font-family: Gilroy;
+    color: #445463;
+    overflow-wrap: break-word;
+
+}
+
+.hello-child1 h3
+{
+    margin-top: 4vw;
+    font-size: 1.3vw;
+    color: #445463;
+    overflow-wrap: break-word;
+    line-height: 1.8vw;
+    font-family: Gilroy;
+
+}
+.hello-child1 h5
+{
+    overflow-wrap: break-word;
+    margin-top: 5vw;
+    font-size: 1.3vw;
+    line-height: 1.8vw;
+    color: #445463;
+    font-family: Gilroy;
+
+}
+
+.hello-child2
+{
+  width: 48%;
+  height: 100%;
+  /* background-color: gray; */
+}
+
+
+#hello-flex2
+{
+
+    padding: 1vw;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    min-height: fit-content;
+    /* background-color: green; */
+}
+
+.hello-flex-part1
+{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    /* height: 200px;  */
+    /* background-color: #111; */
+}
+
+.hello-flex-part1 img
+{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+}
+
+
+
+.hello-flex-part2
+{
+    width: 80%;
+    height: 100%;
+    /* background-color: brown; */
+}
+
+.hello-flex-part2 h2
+{
+    font-size: 1.5vw;
+    font-family: gilroy;
+    font-weight: 900;
+    margin-top: 5vw;
+    /* color: rebeccapurple; */
+}
+
+.hello-flex-part2 p
+{
+    margin-top: 2vw;
+    font-size: 1vw;
+    font-family: gilroy;
+    font-weight: 700;
+    color: #445463;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+
+/* footer section starts from here */
+
+#footer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 80vh;
+    padding: 5vw 5.2vw;
+    background-color: #0b0d17;
+}
+
+.footer-child1
+{
+    width: 25%;
+    
+    height: 100%;
+    /* background-color: #71757e; */
+}
+
+
+.fimg
+{
+    width: 100%;
+}
+
+.fimg img
+{
+    width: 18vw;
+}
+
+.fparagraph
+{
+    width: 100%;
+}
+
+
+.fparagraph p
+{
+    font-size: 1.2vw;
+    margin-top: 2vw;
+    color: #e5e9f2;
+    line-height: 22px;
+    font-family: gilroy;
+
+}
+
+
+.footer-link
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 3vw;
+
+}
+
+
+.fcircle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #445463;
+
+}
+
+.fcircle i
+{
+    font-size: 1.8vw;
+    color: #fff;
+}
+
+
+
+
+.footer-child2
+{
+    width: 20%;
+
+    height: 100%;
+    /* background-color: #8a8a8a; */
+}
+
+.footer-child2 h2
+{
+    font-size: 2vw;
+    font-family: gilroy;
+    color: #fff;
+}
+
+
+
+.footer-child2 p
+{
+    font-size: 1vw;
+    font-family: gilroy;
+    color: #fff;
+    padding-top: 1vw;
+    font-weight: 900;
+}
+
+
+#fitems
+{
+    margin-top: 1vw;
+    /* justify-content: space-between; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+ display: flex;
+   
+}
+
+#fitems a
+{
+    margin-left: 1vw;
+    /* text-decoration: none; */
+    color: #fff;
+    
+}
+#fitems a:nth-child(2)
+{
+    margin-left: 1vw;
+    text-decoration: none;
+    color: #fff;
+    
+}
+#fitems img
+{
+    width: 2vw;
+    height: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-child3
+{
+    width: 15%;
+
+    height: 100%;
+    /* background-color: #262729; */
+}
+
+
+
+.footer-child3 h2
+{
+    font-size: 2vw;
+    color: #fff;
+    font-family: gilroy;
+    padding-bottom: 1vw;
+}
+
+.footer-child3 a
+{
+    display: flex;
+    font-size: 1vw;
+    font-family: gilroy;
+  text-decoration: none;
+  color: #fff;
+  /* padding-top: 3vw; */
+  line-height: 3vw;
+
+}
+
+
+.footer-child4
+{
+
+    width: 15%;
+    height: 100vh;
+    /* background-color: #2f3643; */
+}
+
+
+.footer-child4 h2
+{
+    font-size: 2vw;
+    color: #fff;
+    font-family: gilroy;
+    padding-bottom: 1vw;
+}
+
+
+.footer-child4 a
+{
+    display: flex;
+    font-family: gilroy;
+    color: #fff;
+    line-height: 4vw;
+    text-decoration: none;
+
+}
+
+a:hover
+{
+    color: #0555ff;
+}
+
+
+#h-list
+{
+   position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0555ff;
+}
+
+#hum_nav
+{
+  
+    top: 10%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+   
+   display: none; 
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    min-height: fit-content;
+    padding: 3vw 0;
+    background-color: rgb(39, 110, 145);
+}
+
+
+
+#hum_nav a
+{
+    margin-left: 5vw;
+    color: #111;
+    text-decoration: none;
+    margin-top: 3vw;
+    font-size: 6vw;
+    width: 100%;
+    /* background-color: gray; */
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+
+
+
+@media  (max-width:1025px) {
+    .img img {
+    width: 46vw;
+    }
+    
+#nav
+{
+    position: static;
+}
+    .navlinks>a
+    {
+       display: none;
+    }
+ 
+    #humberger
+    {
+        display: inline-flex !important;
+        position: absolute;
+        right: 10%;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 26px;
+        /* background-color: red; */
+    }
+
+
+    #hero
+    {
+        flex-direction: column;
+    }
+
+
+    #hero-part1
+    {
+        width: 100%;
+    }
+
+    #hero-part1 h1
+    {
+        font-size: 11vw;
+        padding-bottom: 2vw;
+    }
+
+    #hero-part1>p {
+        margin-top: 2.5vw;
+        font-size: 4.3vw;
+        line-height: 6.8vw;
+    }
+
+    #hero-part2
+    {
+        padding: 3vw;
+        width: 100%;
+        margin-top: 2vw;
+    }
+
+
+    #clients h1
+    {
+        font-size: 8vw;
+        margin-top: 10vw;
+    }
+
+
+    #clients p {
+        font-size: 4.2vw;
+        margin-top: 5vw;
+        color: #434343;
+}
+
+
+
+.left{
+    display: none!important;
+}
+
+
+.center
+{
+    flex-direction: row;
+    width: 100%;
+}
+
+.center img {
+    width: 25vw;
+    height: 15vw;
+   
+}
+
+.right{
+    display: none!important;
+    
+}
+
+
+#clients-logo
+{
+    height: 30vh;
+    flex-direction: column;
+}
+
+
+
+.responsive_left
+{
+  width: 100%;
+  /* height: 10%; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 2vw;
+  /* background-color: red; */
+}
+
+
+
+.res_img
+{
+    width: 30%;
+    height: 84%;
+}
+
+.res_img img
+{
+    width: 25vw;
+    border-radius: 10px;
+}
+
+
+#clients
+{
+    min-height: 45vh;
+}
+
+
+
+/* app development section starts from here */
+
+#app-development
+{
+    width: 100%;
+    min-height: 90vh;
+}
+
+#app-development h1
+{
+    margin-top: 16vw;
+}
+
+#cards
+{
+    margin-top: 9vw;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    width: 48%;
+}
+
+.card-logos>img
+{
+    width:9.2vw;
+}
+
+span img
+{
+    height: 0.9vw;
+    width:30vw ;
+}
+
+.card h2
+{
+   
+    font-size: 4.8vw;
+}
+
+.card h5
+{
+    font-size: 3.4vw;
+    margin-top: 9vw;
+}
+
+
+/* service section starts from here */
+
+#services h1
+{
+    font-size: 5vw;
+    margin-top: 8vw;
+}
+
+.row
+{
+    flex-wrap: wrap;
+}
+
+
+.container {
+    border-radius: 15px;
+    padding: 4vw;
+    width: 99%;
+    min-height: 47vh;
+    background-color: #fff;
+}
+
+.img-wrapper
+{
+    height: 19vw;
+    width: 13vw;
+}
+
+.img-wrapper img
+{
+    width: 6vw;
+}
+
+.container>h2
+{
+    font-size: 5vw;
+    font-family: Gilroy;
+}
+
+
+.container>p {
+    font-size: 4vw;
+    line-height: 6vw;
+    color: #434343;
+    margin-top: 9vw;
+    /* font-family: Gilroy; */
+}
+
+
+.container>a
+{
+    padding-top: 7vw;
+}
+
+.container>a>i
+{
+    font-size: 5vw;
+}
+
+
+#explore-btn a
+{
+    padding: 2vw;
+    width: 44vw;
+    height: 14vw;
+    font-size: 4.5vw;
+}
+
+#explore-btn
+{
+    padding: 4vw;
+}
+
+#explore-btn a i
+{
+    font-size: 4.5vw;
+}
+
+
+/* portfolio section starts from here */
+
+#ptext h1
+{
+    font-size: 5vw;
+}
+
+#pbtn {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 3.3vw;
+}
+
+#pbtn i
+{
+    display: none;
+}
+
+#portfolio
+{
+    margin-top: 11vw;
+}
+
+ #portfolio-servicelist
+{
+  
+    /* background-color: red; */
+
+  width: 100%;
+  /* min-height: fit-content; */
+} 
+
+#portfolio-servicelist a
+{
+font-size: 3vw;
+
+}
+
+
+.mobile-card
+{
+    width: 48%;
+   height: 100%;
+}
+
+.mobile-img img
+{
+    height: 100%;
+}
+
+
+
+.mobile-card h2
+{
+    font-size: 3.8vw;
+}
+
+.mobile-card p
+{
+    display: none;
+}
+
+#portfolio-btn a
+{
+    color: #fff;
+    padding: 2vw;
+    width: 44vw;
+    height: 14vw;
+    font-size: 4.5vw;
+}
+
+#portfolio-btn
+{
+    padding: 4vw;
+}
+
+#portfolio-btn a i
+{
+    font-size: 4.5vw;
+}
+
+
+
+
+/* technology section starts from here */
+
+#technologies
+{
+    flex-direction: column;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+#ttext
+{
+    width: 100%;
+}
+
+#ttext h1
+{
+    font-size: 8.7vw;
+}
+
+.timages
+{
+    width: 100%;
+}
+
+.box
+{
+    width: 30%;
+}
+
+.timages img
+{
+    width: 29vw;
+}
+
+
+/* mobile-flex section starts from here */
+
+#mobile-flex
+{
+    /* flex-flow: wrap; */
+    padding-bottom: 4vw;
+    flex-direction: column;
+}
+
+.mchild1
+{
+    width: 100%;
+}
+
+.mchild1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.mchild2
+{
+    width: 100%;
+}
+
+.mchild2 h1
+{
+    margin-top: 19vw;
+    font-size: 7.2vw;
+}
+
+.mchild2 p {
+    line-height: 21px;
+    font-size: 4vw;
+    font-family: proxima-nova-regular;
+    margin-top: 4vw;
+}
+#app-grid h1 {
+    font-size: 6.6vw;
+    font-family: Gilroy;
+    font-weight: 900;
+    margin-top: 5vw;
+}
+
+
+
+.grid-card
+{
+    padding: 7vw;
+    margin-top: 4vw;
+    width: 100%;
+}
+
+.grid-flex h2
+{
+    /* font-weight: 900; */
+    color: #111;
+    font-size: 4.6vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.grid-flex img
+{
+    width: 17vw;
+}
+
+.grid-card p
+{
+    font-size: 4.5vw;
+    line-height: 28px;
+    color: rgba(43, 39, 39, 0.884);
+}
+
+
+/* domain section stsrts from here */
+
+#domain-expertise h1
+{
+    font-size: 5.6vw;
+}
+
+#domain-expertise
+{
+    min-height: 54vh;
+    padding-top: 5vw;
+}
+
+#domain-nav {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    width: 94%;
+    padding-bottom: 4vw;
+    border-bottom: solid 2px #fff;
+    min-height: fit-content;
+    margin-top: 10vw;
+     margin-left: 4.2vw; 
+    /* background-color: green; */
+}
+
+#domain-expertise p {
+    width: 100%;
+    line-height: 27px;
+    letter-spacing: 1px;
+    margin-top: 11vw;
+    margin-left: 4vw;
+    font-size: 4.7vw;
+    color: #fff;
+}
+
+#domain-nav a
+{
+    margin-right: 4vw;
+    font-size: 3vw;
+}
+
+#hello h1
+{
+    margin-top: 3vw;
+    font-size: 6vw;
+    font-family: gilroy;
+}
+
+#hello-flex
+{
+    flex-direction: column;
+}
+
+.hello-child1
+{
+    width: 100%;
+}
+
+.hello-child1 h4 {
+    margin-top: 8vw;
+
+    font-size: 4.3vw;
+    line-height: 5.8vw;
+    font-family: Gilroy;
+    color: #445463;
+    overflow-wrap: break-word;
+}
+.hello-child1 h3 {
+    margin-top: 8vw;
+
+    font-size: 4.3vw;
+    line-height: 5.8vw;
+    font-family: Gilroy;
+    color: #445463;
+    overflow-wrap: break-word;
+}
+.hello-child1 h5 {
+    margin-top: 8vw;
+    letter-spacing: 1px;
+    font-size: 4.3vw;
+    line-height: 5.8vw;
+    font-family: Gilroy;
+    color: #445463;
+    overflow-wrap: break-word;
+}
+
+.hello-child2
+{
+    width: 100%;
+    margin-top: 13vw;
+}
+
+.hello-flex-part1
+{
+    width: 10%;
+}
+
+.hello-flex-part1 img
+{
+    width: 12vw;
+    height: 12vw;
+}
+
+.hello-flex-part2 h2
+{
+    font-size: 3.8vw;
+}
+
+.hello-flex-part2 p
+{
+margin-top: 6vw;
+font-size: 3.8vw;
+}
+
+
+#footer
+{
+    flex-direction: column;
+}
+
+.footer-child1
+{
+    width: 100%;
+}
+
+.fimg img
+{
+    width: 39vw;
+}
+
+.fparagraph p
+{
+    font-size: 3.2vw;
+}
+
+.fcircle
+{
+    width: 9vw;
+    height: 9vw;
+}
+
+.fcircle i
+{
+    font-size: 4.3vw;
+}
+
+
+.footer-child2
+{
+
+    width: 100%;
+}
+
+.footer-child2 h2
+{
+    margin-top: 12vw;
+    font-size: 6vw;
+    margin-bottom: 6vw;
+}
+
+#fitems img
+{
+    width: 5vw;
+    height: 5vw;
+}
+
+#fitems a:nth-child(2)
+{
+    
+    margin-left: 4vw;
+    font-size: 3vw;
+}
+
+.footer-child2 p {
+    font-size: 3.5vw;
+    font-family: gilroy;
+    color: #fff;
+    padding-top: 2vw;
+    margin-left: 6vw;
+    font-weight: 900;
+}
+
+.footer-child3
+{
+    width: 100%;
+}
+
+.footer-child3 h2
+{
+    margin-top: 7vw;
+    margin-bottom: 3vw;
+    font-size: 6vw;
+}
+
+.footer-child3 a
+{
+    font-size: 3vw;
+    line-height: 7vw;
+}
+
+.footer-child4
+{
+    width: 100%;
+}
+
+.footer-child4 h2
+{
+    font-size: 6vw;
+    margin-top: 7vw;
+    margin-bottom: 4vw;
+}
+
+
+.footer-child4 a
+{
+    font-size: 3vw;
+    line-height: 7vw;
+}
+
+.footer-child4
+{
+    height: fit-content;
+}
+
+#hum_nav
+{
+    flex-direction: column;
+}
+}
+
